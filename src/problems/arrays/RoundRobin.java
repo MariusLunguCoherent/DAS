@@ -11,10 +11,10 @@ import java.util.Set;
 public class RoundRobin
 {
     private static final String HOST_BASE = "10.10.1.";
-    private static int index = 0;
     static Set<String> address;
     static Object[] addressArray;
     static Random rand = new Random();
+    private static int index = 0;
 
     public static void main(String[] args)
     {

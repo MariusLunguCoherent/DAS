@@ -7,7 +7,7 @@ public class SquaredSortedArray
 
     public static void main(String[] args)
     {
-        int[] nums = {0,0,-4, -1, 0, 3, 10,-100};
+        int[] nums = {0, 0, -4, -1, 0, 3, 10, -100};
         SquaredSortedArray squaredSortedArray = new SquaredSortedArray();
         System.out.println(Arrays.toString(squaredSortedArray.sortedSquares(nums)));
     }
@@ -33,8 +33,9 @@ public class SquaredSortedArray
                         squareArrays[k - 1] = val;
                     }
                 }
-                if(val > squareArrays [i]){
-                    squareArrays [i] = val;
+                if (val > squareArrays[i])
+                {
+                    squareArrays[i] = val;
                 }
 
             }

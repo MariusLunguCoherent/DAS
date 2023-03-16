@@ -29,7 +29,7 @@ public class ShuffleArray
         {
             temp = nums[i];
             nums[i] = nums[n];
-            nums[n ] = temp;
+            nums[n] = temp;
             i += 2;
         }
 
